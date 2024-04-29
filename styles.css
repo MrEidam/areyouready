@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50%;
+    transition: all 1s;
+    min-width: 50%;
+}
+.top button{
+    border: #666 solid 5px;
+    min-height: 30rem;
+    min-width: 30rem;
+    border-radius: 50%;
+    font-size: 69px;
+    filter: drop-shadow(10px 8px 6px #111);
+    background: #999;
+    color: #fff;
+    transition: all 1s;
+    cursor: pointer;
+}
+.top button:hover{
+    min-height: 50rem;
+    min-width: 50rem;
+    border: darkred solid 5px;
+    background: red;
+    font-size: 127px;
+    transition: all 1s;
+}
